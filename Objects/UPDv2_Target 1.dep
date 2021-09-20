@@ -51,7 +51,7 @@ I (.\Middlewares\Third_Party\FreeRTOS\Source\include\timers.h)(0x5C3D75D7)
 I (.\Middlewares\Third_Party\FreeRTOS\Source\include\queue.h)(0x5C3D75D7)
 I (.\Middlewares\Third_Party\FreeRTOS\Source\include\semphr.h)(0x5C3D75D7)
 I (.\Middlewares\Third_Party\FreeRTOS\Source\include\event_groups.h)(0x5C3D75D7)
-I (main.h)(0x6148851A)
+I (main.h)(0x61487D82)
 I (sim800.h)(0x612F07CE)
 F (.\base64.c)(0x60D04FFF)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_StdPeriph_Driver\inc -I .\STM32F0xx_StdPeriph_Driver\src -I .\STM32F0xx_StdPeriph_Driver -I ..\Project_UPD_v_2 -I ..\Project_UPD_LSM6DSl -I .\Middlewares\Third_Party\FreeRTOS\Source\include -I .\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS -I .\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM0 -I .\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang -I .\Middlewares\Third_Party\FreeRTOS\Source -I ..\GNSSGSMmodemV2-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F072xB-o .\objects\base64.o --omf_browse .\objects\base64.crf --depend .\objects\base64.d)
 I (base64.h)(0x60D04FFF)
@@ -116,7 +116,7 @@ I (.\Middlewares\Third_Party\FreeRTOS\Source\include\timers.h)(0x5C3D75D7)
 I (.\Middlewares\Third_Party\FreeRTOS\Source\include\queue.h)(0x5C3D75D7)
 I (.\Middlewares\Third_Party\FreeRTOS\Source\include\semphr.h)(0x5C3D75D7)
 I (.\Middlewares\Third_Party\FreeRTOS\Source\include\event_groups.h)(0x5C3D75D7)
-I (main.h)(0x6148851A)
+I (main.h)(0x61487D82)
 I (sim800.h)(0x612F07CE)
 I (base64.h)(0x60D04FFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F056C)

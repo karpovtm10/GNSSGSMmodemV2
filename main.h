@@ -1,6 +1,6 @@
 #ifndef __main
 #define __main
-#define GIT										1
+#define GIT										0
 #define MAIL_SIZE 								(u32) 50					// Размер очереди
 #define DEBUG 									0							// Отладка
 #if DEBUG
