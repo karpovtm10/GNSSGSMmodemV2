@@ -1,5 +1,8 @@
 # Object file
 *.o
-
-# Ada Library Information
-*.ali
+*.i
+*.htm
+*.karpov_vv
+*.crf
+*.dep
+*.axf
