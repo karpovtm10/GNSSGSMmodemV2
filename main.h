@@ -13,7 +13,6 @@
 #define TIMEOUT_RTK								650							// Время таймаута ожидания новой посылки GPS
 #define TIMEOUT_TIME                            10000                       // Время таймаута ожидания ответа GSM
 
-
 #define CAN_EXT_ID_MASK							0x18000003
 #define CAN_STD_ID								0x000						// Стандартный идентификатор
 #define CAN_EXT_ID								0x00000000					// Расширенный идентификатор
