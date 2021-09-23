@@ -184,25 +184,27 @@ u8 NE_DATA_FLAG = 0;
 u8 sendbuffer[11] = {'H', 'E', 'L', 'L', 'O', ' ', 'W', 'O', 'R', 'L', 'D'};
 
 
-char 			print_buffer					[PRINT_BUF] __attribute__((at(0x20000603)));        // Буфер для sprintf
+char 			print_buffer					[PRINT_BUF] ;        // Буфер для sprintf
 
-volatile u8 	GPS_DATA						[GPS_BUF]	__attribute__((at(0x20000766)));  		// Буффер на GPS данные
-volatile char	GSM_DATA						[GSM_BUF] 	__attribute__((at(0x20000865))); 		// USART1 буфер
-u8				CAN_BASKET_LAT					[CAN_BUF] 	__attribute__((at(0x200008C9)));		// Корзина для широты в CAN
-u8				CAN_BASKET_LON					[CAN_BUF]	__attribute__((at(0x200008D1)));		// Корзина для долготы в CAN
-u8				CAN_BASKET_ALT					[CAN_BUF]	__attribute__((at(0x200008D9)));		// Корзина для высоты в CAN
-u8				CAN_BASKET_RC_DRIVING			[CAN_BUF]	__attribute__((at(0x200008E1)));		// Корзина для дистанционки в CAN				
-u8				CAN_BASKET_RC_DIR				[CAN_BUF]	__attribute__((at(0x200008E9)));		// Корзина для дистанционки в CAN		
-u8				CAN_BASKET_RC_SPEED_ENGINE		[CAN_BUF]	__attribute__((at(0x200008F1)));		// Корзина для дистанционки в CAN
-u8				CAN_BASKET_RC_START_BUTTON		[CAN_BUF]	__attribute__((at(0x200008F9)));		// Корзина для дистанционки в CAN
+volatile u8 	GPS_DATA						[GPS_BUF]	;  		// Буффер на GPS данные
+volatile char	GSM_DATA						[GSM_BUF] 	; 		// USART1 буфер
+u8				CAN_BASKET_LAT					[CAN_BUF] 	;		// Корзина для широты в CAN
+u8				CAN_BASKET_LON					[CAN_BUF]	;		// Корзина для долготы в CAN
+u8				CAN_BASKET_ALT					[CAN_BUF]	;		// Корзина для высоты в CAN
+u8				CAN_BASKET_RC_DRIVING			[CAN_BUF]	;		// Корзина для дистанционки в CAN				
+u8				CAN_BASKET_RC_DIR				[CAN_BUF]	;		// Корзина для дистанционки в CAN		
+u8				CAN_BASKET_RC_SPEED_ENGINE		[CAN_BUF]	;		// Корзина для дистанционки в CAN
+u8				CAN_BASKET_RC_START_BUTTON		[CAN_BUF]	;		// Корзина для дистанционки в CAN
 
-char			size_of_RTK_parcel_arr			[4]			__attribute__((at(0x20000901)));		// Массив для хранения размера принятой NTRIP посылки
+char			size_of_RTK_parcel_arr			[4]			;		// Массив для хранения размера принятой NTRIP посылки
 
-char			RECEIVE_SERVER_BUF				[SERVER_BUF]__attribute__((at(0x20000905)));		// Буфер для посылок с сервера
+char			RECEIVE_SERVER_BUF				[SERVER_BUF];		// Буфер для посылок с сервера
 
-u8 				parsed_buffer					[255] 		__attribute__((at(0x20000E04)));
-u8 				zzzbuffer						[20] 		__attribute__((at(0x20000F03)));
-u8 				Calling_number					[12] 		__attribute__((at(0x20000F17)));
+u8 				parsed_buffer					[255] 		;
+u8 				zzzbuffer						[20] 		;
+u8 				Calling_number					[12] 		;
+
+
 
 // Cтруктуры
 // ********************************************************************************************************************************************
